@@ -20,9 +20,10 @@ import com.plcoding.socialnetworktwitch.presentation.util.Navigation
 import com.plcoding.socialnetworktwitch.presentation.util.Screen
 import dagger.hilt.android.AndroidEntryPoint
 
+@ExperimentalMaterialApi
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
-    @ExperimentalMaterialApi
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
